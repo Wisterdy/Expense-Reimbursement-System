@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement</title>
+    <link  rel="stylesheet"  href="/css/home.css">
+    <link  rel="icon"   type="image/png" href="/images/favicon.png"> 
+</head>
+<body>
+
+    <div class="homepagecover">
+    
+        <nav class="navbar"> 
+
+            <div id="welcome"> <h1> welcome  </h1></div>
+
+            <div id="url">
+            <ul>
+                <li>
+                  <a href="">  Create</a> 
+                </li>
+
+                <li> 
+                <a> History</a>
+              </li>
+
+              <li> 
+                <a> Logout</a>
+              </li>
+            </ul>
+        </div>
+
+        </nav>
+
+
+        <form  method="dialog" class="loginsection" >
+            <div class="inputrow">
+              <h3>Request</h3>  
+             </div>
+          <div class="inputrow">
+            <label for="amount">amount $</label>
+             <input type="number" name="amount"  id="amount" min="1" required>  
+          </div>
+      
+          <div class="inputrow">
+              <label for="reciept">Reciept</label>
+               <input type="file" name="reciept"  id="reciept"  accept="image/x-png,image/gif,image/jpeg">  
+            </div>
+
+            <div class="inputrow">
+                <label for="type">Type</label>
+                <select name="Type" id="typecreate">
+                    <option value="food">Food</option>
+                    <option value="lodging">Lodging</option>
+                    <option value="travel">Travel</option>
+                    <option value="other">Other</option>
+                    </select>
+              </div>
+        
+            <div class="inputselectionbutton">
+              <button id="newreimb">Submit </button>
+            </div>
+      
+        
+      </form>
+        
+
+   
+
+       
+   <!--- <p> im home friend </p>
+    <p id="user"></p>-->
+    <script src="/js/createreimb.js"></script>
+
+    </div>
+</body>
+</html>

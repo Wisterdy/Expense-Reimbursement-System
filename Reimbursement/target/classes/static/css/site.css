@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+@media only screen and (min-width: 575px) {
+  .pagecover {
+    background-color: #fff0f5;
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    flex-direction: column;
+  }
+
+  .loginsection {
+    background-color: #cecece;
+    width: 35%;
+    height: 50vh;
+    z-index: 4;
+    border-radius: 15px;
+  }
+
+  .loginsection h3 {
+    color: white;
+    font-size: 2em;
+  }
+
+  .inputrow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+
+  .inputrow label {
+    color: white;
+    border-width: 4px;
+  }
+
+  .inputrow input {
+    padding-left: 4px;
+    width: 60%;
+  }
+
+  .inputselectionbutton {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+
+  .inputselectionbutton button {
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    background-color: #b0b0b0;
+  }
+
+  #signupheader {
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .pagecover {
+    background-color: #fff0f5;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginsection {
+    display: flex;
+    background-color: #cecece;
+    width: 95%;
+    height: 100vh;
+    z-index: 4;
+    border-radius: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-direction: column;
+  }
+
+  .loginsection h3 {
+    color: white;
+    font-weight: bold;
+  }
+
+  .inputrow {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+
+  .inputrow label {
+    color: white;
+    border-width: 4px;
+  }
+
+  .inputrow input {
+    padding-left: 4px;
+    width: 50%;
+  }
+
+  .inputselectionbutton {
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .inputselectionbutton button {
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    background-color: #b0b0b0;
+  }
+}

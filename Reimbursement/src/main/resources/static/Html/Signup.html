@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimbursement</title>
+    <link  rel="stylesheet"  href="/css/signup.css">
+    <link  rel="icon"   type="image/png" href="/images/favicon.png"> 
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />-->
+</head>
+<body>
+  
+ <div class="pagecover">
+    
+
+    <form  method="dialog" class="loginsection" >
+
+
+        <div class="inputrow">
+           <h3>Sign up</h3>  
+          </div>
+    <div class="inputrow">
+      <label for="Firstname">Firstname</label>
+       <input pattern="[A-Za-z]+" type="text" name="Firstname"  id="Firstname" minlength="3" maxlength="50" required>  
+    </div>
+
+    <div class="inputrow">
+        <label for="LastName">LastName</label>
+         <input pattern="[A-Za-z]+" type="LastName" name="LastName"  id="LastName"  minlength="5" maxlength="50" required>  
+      </div>
+  
+
+      <div class="inputrow">
+        <label for="email">Email</label>
+         <input type="email" name="email"  id="email" minlength="5" maxlength="50" required>  
+      </div>
+
+      <div class="inputrow">
+        <label for="SignupUsername">Username</label>
+         <input type="text" name="SignupUsername"  id="SignupUsername" minlength="5" maxlength="50" required>  
+      </div>
+  
+      <div class="inputrow">
+          <label for="SignupPassword">Password</label>
+           <input type="password" name="SignupPassword"  id="SignupPassword"  minlength="5" maxlength="50" required>  
+        </div>
+
+        <div class="inputrow">
+            <label for="role">Employee Role:</label>
+
+            <select name="EmployeeRole" id="role">
+              <option value="employee">Employee</option>
+              <option value="finance">Finance</option>
+            </select>
+        </div>
+    
+      <div class="inputselectionbutton">
+        <button id="signupconfirm"> Submit </button>
+      </div>
+
+    </div>
+  
+</form>
+
+
+</div>
+
+<script src="/js/register.js"> </script>
+</body>
+</html>
