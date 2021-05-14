@@ -37,7 +37,7 @@ to-do-list:
 
 ## Usage ##
 1. Create the userdb table in HeidiSQL
-2. set port 3307
+2. set port 3307  
 3.set Username "root"
 4. set Password "admin"
 5. HeidiSQL set up complete 
