@@ -32,7 +32,7 @@ to-do-list:
 
 ## Getting started ##
 1. git clone the repository   
-2. Required a proper IDE to run the Javalin application such as Springtool, Netbeans, or Eclipse.   
+2. Require a proper IDE to run the Javalin application such as Springtool, Netbeans, or Eclipse.   
 3. HeidiSQL   
 
 ## Usage ##
